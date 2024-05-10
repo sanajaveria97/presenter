@@ -1,0 +1,419 @@
+/**************1200px****/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .form1 {
+    margin-top: 6.4rem;
+  }
+}
+
+/*****1056px****/
+@media (max-width: 66em) {
+  .container {
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
+  }
+
+  .grid--2--cols {
+    column-gap: 5.2rem;
+    row-gap: 2rem;
+  }
+
+  .apply:link,
+  .apply:visited {
+    padding: 2rem 2rem;
+  }
+
+  input {
+    padding: 2rem 2rem;
+  }
+}
+
+/***976px****/
+@media (max-width: 61em) {
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-hero {
+    height: 120rem;
+  }
+  .container {
+    padding: 0 auto;
+  }
+
+  .hero-desc {
+    padding: 8rem 12.8rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    padding-bottom: 0;
+  }
+
+  /* .hero-desc h1,
+  .hero-desc p {
+    transform: translateX(110px);
+  } */
+
+  .p1 {
+    margin-bottom: 0;
+  }
+
+  .form1 {
+    margin-top: 2.4rem;
+  }
+
+  .hero-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img img {
+    width: 75%;
+  }
+
+  .info-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-img img {
+    width: 60%;
+  }
+
+  .info-section {
+    padding-top: 25rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .info-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-img:nth-child(3) {
+    grid-row: 4;
+  }
+
+  .heading-primary {
+    font-size: 6rem;
+  }
+
+  .container-2 {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 12.8rem 10rem;
+    text-align: center;
+  }
+
+  .lego {
+    right: 5rem;
+    top: 20rem;
+  }
+  .rocket {
+    left: 3rem;
+    top: 25rem;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-section {
+    position: relative;
+    padding-top: 15rem;
+  }
+
+  .cta-img-left,
+  .cta-img-right {
+    display: none;
+  }
+
+  .footer-img {
+    background-color: #3a51e9;
+  }
+  .cta-img-right {
+    width: 20%;
+
+    margin-top: -110rem;
+    transform: rotate(90deg);
+  }
+
+  .container-3 {
+    padding-bottom: 12rem;
+  }
+
+  .form-2 {
+    margin-top: 1.2rem;
+    margin-bottom: 15rem;
+  }
+}
+
+/***768px****/
+@media (max-width: 48em) {
+  /* .cta-img-right {
+    top: -41rem;
+    left: 40%;
+  } */
+
+  .experience {
+    font-size: 4.8rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: flex-start;
+  }
+  .logo {
+    display: flex;
+  }
+
+  .investors-para {
+    font-size: 1.4em;
+    margin: 1.8rem 6.4rem;
+  }
+
+  /* .apply:link,
+  .apply:visited {
+    padding: 2rem 2rem;
+    width: 100%;
+  } */
+
+  input {
+    padding: 2rem 2rem;
+    width: 100%;
+  }
+  .form1,
+  .form-2 {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  .form1 a,
+  .form-2 a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-2 {
+    margin-bottom: 10rem;
+  }
+
+  .heading-vision {
+    font-size: 8rem;
+  }
+
+  .container-2 {
+    padding: 12.8rem 4rem;
+  }
+}
+
+/****688px****/
+@media (max-width: 43rem) {
+  .info-section {
+    padding-top: 10rem;
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .investors-para {
+    margin: 1.8rem 2rem;
+  }
+
+  .hero-desc {
+    padding: 8rem 8rem;
+  }
+
+  .cta-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .investors-heading {
+    font-size: 4.8rem;
+    letter-spacing: -0.5px;
+  }
+
+  .info-img img {
+    transform: translateY(-10px);
+  }
+
+  .investors {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    column-gap: 0.2rem;
+  }
+
+  .investors img {
+    width: 34%;
+    align-items: center;
+    justify-self: center;
+  }
+  .superhuman {
+    grid-column: 2;
+  }
+
+  .experience {
+    font-size: 4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+
+  .footer-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.2rem;
+    row-gap: 2rem;
+  }
+
+  .hero-desc {
+    padding: 6.4rem 6.4rem;
+  }
+
+  .para-vision {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .container-3 {
+    padding: 9.6rem 6.4rem;
+  }
+}
+
+/******512px**/
+@media (max-width: 32em) {
+  .hero-desc {
+    padding: 4.8rem 4.8rem;
+  }
+
+  .section-hero {
+    height: 92rem;
+  }
+
+  .info-section {
+    padding-top: 10rem;
+  }
+
+  .secondary-heading {
+    font-size: 3rem;
+  }
+
+  .info-para {
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-top: 1.8rem;
+  }
+
+  .para-vision {
+    font-size: 2rem;
+    line-height: 1.7;
+    letter-spacing: -0.5px;
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .investors-heading {
+    font-size: 3.6rem;
+    letter-spacing: -0.5px;
+  }
+
+  .experience {
+    font-size: 3rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .para {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.9;
+  }
+
+  .cta-section {
+    position: relative;
+    padding-top: 10rem;
+  }
+
+  .investors-para {
+    margin: 1.8rem 1rem;
+  }
+
+  .hero-desc {
+    padding: 3.6rem 3rem;
+  }
+
+  .container {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+
+  .container-2 {
+    padding: 8rem 2rem;
+  }
+
+  .heading-vision {
+    font-size: 6.4rem;
+  }
+
+  .cta-section {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .header-btn:link,
+  .header-btn:visited {
+    padding: 1.2rem 2.2rem;
+    font-size: 1.2rem;
+  }
+
+  .section-hero {
+    height: 80rem;
+  }
+
+  .container-3 {
+    padding: 9.6rem 3.6rem;
+  }
+
+  .investors-para {
+    font-size: 1.2em;
+    margin: 1.6rem 0.8rem;
+  }
+
+  .hero-desc {
+    padding-top: 5.2rem;
+    padding-bottom: 0;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .experience {
+    font-size: 3rem;
+  }
+
+  .container-3 {
+    padding: 9.6rem 1.2rem;
+  }
+}
